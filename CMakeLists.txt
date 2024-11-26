@@ -16,13 +16,19 @@ else()
 endif()
 
 # Détection des fichiers sources
-file(GLOB_RECURSE SOURCES src/*.cpp)
+file(GLOB_RECURSE SOURCES src/*.cpp tests/*.cpp)
 
 # Définition de l'exécutable principal
 add_executable(Thive ${SOURCES})
 
 # Définir les headers du projet
 target_include_directories(Thive PRIVATE include)
+
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIRS})
+
+add_executable(ThiveTest ${SOURCES})
+target_link_libraries(ThiveTest ${GTEST_LIBRARIES} pthread)
 
 # Optionnel : Messages pour aider à la configuration
 message(STATUS "CMake généré avec succès pour le projet Thive")

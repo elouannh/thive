@@ -957,8 +957,16 @@ CMakeFiles/Thive.dir/src/main.cpp.o: /Users/elouannh/code/thive/src/main.cpp \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
+  /Users/elouannh/code/thive/include/main.h
 
+CMakeFiles/Thive.dir/src/parser.cpp.o: /Users/elouannh/code/thive/src/parser.cpp \
+  /Users/elouannh/code/thive/include/parser.h
+
+
+/Users/elouannh/code/thive/src/parser.cpp:
+
+/Users/elouannh/code/thive/include/main.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h:
 
@@ -1027,6 +1035,8 @@ CMakeFiles/Thive.dir/src/main.cpp.o: /Users/elouannh/code/thive/src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_u_int16_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_u_int.h:
+
+/Users/elouannh/code/thive/include/parser.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_timeval.h:
 

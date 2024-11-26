@@ -959,4 +959,9 @@ CMakeFiles/Thive.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h
+ /Users/elouannh/code/thive/include/main.h
+
+CMakeFiles/Thive.dir/src/parser.cpp.o
+ /Users/elouannh/code/thive/src/parser.cpp
+ /Users/elouannh/code/thive/include/parser.h
 
