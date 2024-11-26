@@ -1,0 +1,3 @@
+/Users/elouannh/code/thive/build/CMakeFiles/Thive.dir
+/Users/elouannh/code/thive/build/CMakeFiles/edit_cache.dir
+/Users/elouannh/code/thive/build/CMakeFiles/rebuild_cache.dir
