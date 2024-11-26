@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Thive.dir/src/main.cpp.o"
   "CMakeFiles/Thive.dir/src/main.cpp.o.d"
+  "CMakeFiles/Thive.dir/src/parser.cpp.o"
+  "CMakeFiles/Thive.dir/src/parser.cpp.o.d"
   "Thive"
   "Thive.pdb"
 )

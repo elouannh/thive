@@ -1,5 +1,6 @@
 CMakeFiles/Thive.dir/src/main.cpp.o: \
   /Users/elouannh/code/thive/src/main.cpp \
+  /Users/elouannh/code/thive/src/../include/main.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__assertion_handler \

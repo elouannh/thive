@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/elouannh/code/thive/src/main.cpp" "CMakeFiles/Thive.dir/src/main.cpp.o" "gcc" "CMakeFiles/Thive.dir/src/main.cpp.o.d"
+  "/Users/elouannh/code/thive/src/parser.cpp" "CMakeFiles/Thive.dir/src/parser.cpp.o" "gcc" "CMakeFiles/Thive.dir/src/parser.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
