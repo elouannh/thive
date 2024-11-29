@@ -64,12 +64,12 @@ CMAKE_BINARY_DIR = /Users/elouannh/code/thive/build
 
 # The main recursive "all" target.
 all: CMakeFiles/Thive.dir/all
-all: CMakeFiles/ThiveTest.dir/all
+all: CMakeFiles/YamlParser.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/Thive.dir/codegen
-codegen: CMakeFiles/ThiveTest.dir/codegen
+codegen: CMakeFiles/YamlParser.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -78,7 +78,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Thive.dir/clean
-clean: CMakeFiles/ThiveTest.dir/clean
+clean: CMakeFiles/YamlParser.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -113,35 +113,35 @@ CMakeFiles/Thive.dir/clean:
 .PHONY : CMakeFiles/Thive.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ThiveTest.dir
+# Target rules for target CMakeFiles/YamlParser.dir
 
 # All Build rule for target.
-CMakeFiles/ThiveTest.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThiveTest.dir/build.make CMakeFiles/ThiveTest.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThiveTest.dir/build.make CMakeFiles/ThiveTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/elouannh/code/thive/build/CMakeFiles --progress-num=4,5,6 "Built target ThiveTest"
-.PHONY : CMakeFiles/ThiveTest.dir/all
+CMakeFiles/YamlParser.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YamlParser.dir/build.make CMakeFiles/YamlParser.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YamlParser.dir/build.make CMakeFiles/YamlParser.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/elouannh/code/thive/build/CMakeFiles --progress-num=4,5,6 "Built target YamlParser"
+.PHONY : CMakeFiles/YamlParser.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ThiveTest.dir/rule: cmake_check_build_system
+CMakeFiles/YamlParser.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/elouannh/code/thive/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ThiveTest.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/YamlParser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/elouannh/code/thive/build/CMakeFiles 0
-.PHONY : CMakeFiles/ThiveTest.dir/rule
+.PHONY : CMakeFiles/YamlParser.dir/rule
 
 # Convenience name for target.
-ThiveTest: CMakeFiles/ThiveTest.dir/rule
-.PHONY : ThiveTest
+YamlParser: CMakeFiles/YamlParser.dir/rule
+.PHONY : YamlParser
 
 # codegen rule for target.
-CMakeFiles/ThiveTest.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThiveTest.dir/build.make CMakeFiles/ThiveTest.dir/codegen
-.PHONY : CMakeFiles/ThiveTest.dir/codegen
+CMakeFiles/YamlParser.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YamlParser.dir/build.make CMakeFiles/YamlParser.dir/codegen
+.PHONY : CMakeFiles/YamlParser.dir/codegen
 
 # clean rule for target.
-CMakeFiles/ThiveTest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThiveTest.dir/build.make CMakeFiles/ThiveTest.dir/clean
-.PHONY : CMakeFiles/ThiveTest.dir/clean
+CMakeFiles/YamlParser.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YamlParser.dir/build.make CMakeFiles/YamlParser.dir/clean
+.PHONY : CMakeFiles/YamlParser.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,3 +1,3 @@
-#include "../include/parser.h"
+#include "../include/parser.hpp"
 
-class Parser;
+YAML::Node parse(const char *file) {}

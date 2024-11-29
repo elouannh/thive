@@ -130,17 +130,17 @@ Thive/fast:
 .PHONY : Thive/fast
 
 #=============================================================================
-# Target rules for targets named ThiveTest
+# Target rules for targets named YamlParser
 
 # Build rule for target.
-ThiveTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ThiveTest
-.PHONY : ThiveTest
+YamlParser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 YamlParser
+.PHONY : YamlParser
 
 # fast build rule for target.
-ThiveTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThiveTest.dir/build.make CMakeFiles/ThiveTest.dir/build
-.PHONY : ThiveTest/fast
+YamlParser/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YamlParser.dir/build.make CMakeFiles/YamlParser.dir/build
+.PHONY : YamlParser/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -148,7 +148,7 @@ src/main.o: src/main.cpp.o
 # target to build an object file
 src/main.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thive.dir/build.make CMakeFiles/Thive.dir/src/main.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThiveTest.dir/build.make CMakeFiles/ThiveTest.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YamlParser.dir/build.make CMakeFiles/YamlParser.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -157,7 +157,7 @@ src/main.i: src/main.cpp.i
 # target to preprocess a source file
 src/main.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thive.dir/build.make CMakeFiles/Thive.dir/src/main.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThiveTest.dir/build.make CMakeFiles/ThiveTest.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YamlParser.dir/build.make CMakeFiles/YamlParser.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -166,7 +166,7 @@ src/main.s: src/main.cpp.s
 # target to generate assembly for a file
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thive.dir/build.make CMakeFiles/Thive.dir/src/main.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThiveTest.dir/build.make CMakeFiles/ThiveTest.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YamlParser.dir/build.make CMakeFiles/YamlParser.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/parser.o: src/parser.cpp.o
@@ -175,7 +175,7 @@ src/parser.o: src/parser.cpp.o
 # target to build an object file
 src/parser.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thive.dir/build.make CMakeFiles/Thive.dir/src/parser.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThiveTest.dir/build.make CMakeFiles/ThiveTest.dir/src/parser.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YamlParser.dir/build.make CMakeFiles/YamlParser.dir/src/parser.cpp.o
 .PHONY : src/parser.cpp.o
 
 src/parser.i: src/parser.cpp.i
@@ -184,7 +184,7 @@ src/parser.i: src/parser.cpp.i
 # target to preprocess a source file
 src/parser.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thive.dir/build.make CMakeFiles/Thive.dir/src/parser.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThiveTest.dir/build.make CMakeFiles/ThiveTest.dir/src/parser.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YamlParser.dir/build.make CMakeFiles/YamlParser.dir/src/parser.cpp.i
 .PHONY : src/parser.cpp.i
 
 src/parser.s: src/parser.cpp.s
@@ -193,7 +193,7 @@ src/parser.s: src/parser.cpp.s
 # target to generate assembly for a file
 src/parser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thive.dir/build.make CMakeFiles/Thive.dir/src/parser.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThiveTest.dir/build.make CMakeFiles/ThiveTest.dir/src/parser.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YamlParser.dir/build.make CMakeFiles/YamlParser.dir/src/parser.cpp.s
 .PHONY : src/parser.cpp.s
 
 # Help Target
@@ -205,7 +205,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Thive"
-	@echo "... ThiveTest"
+	@echo "... YamlParser"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
